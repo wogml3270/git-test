@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 페이지</title>
+</head>
+<body>
+    <h1>form tag</h1>
+    <hr>
+
+    <!-- 
+        action: 주소값( form 태그 안에 작성된 내용을 갖고 갈 목표 주소값 )
+        method: get, post
+     -->
+    <form action="/join" method="get">
+        <div>아이디: <input type="text" name="uid"></div>
+        <div>
+            <label for="password">비밀번호: <input type="password"></label>
+        </div>
+        <div>
+            <input type="text" name="unm" placeholder="이름">
+        </div>
+        <div>
+            여성: <input type="radio" name="gender" value="W">
+            남성: <input type="radio" name="gender" value="M">
+        </div>
+        <div>
+            <input type="submit" value="전송">
+            <button>전송2</button>
+            <input type="button" value="버튼">
+            <input type="reset" value="초기화">
+        </div>
+    </form>
+
+    <a href="/list?name=ddd&age=26">이동</a>
+</body>
+</html>
