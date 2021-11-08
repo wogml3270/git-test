@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+}
+div{
+    background-color:darksalmon;
+}
+div.a1{
+    background-color:blanchedalmond;
+}
+div#a2{
+    background-color: beige;
+    color: #f00;
+    font-weight: bold;
+}
